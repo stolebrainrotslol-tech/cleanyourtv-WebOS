@@ -1,0 +1,165 @@
+﻿{
+  "name": "Liquid Glass",
+  "author": "Custom",
+  "description": "Apple Liquid Glass inspired theme with depth effect clock, glassmorphism panels, and smooth animations.",
+  "colors": {
+    "night": "#0a0a0f",
+    "panel": "#1a1a2e",
+    "ink": "#ffffff",
+    "accent": "#00d4aa"
+  },
+  "surface": {
+    "pillAlpha": 0.12,
+    "pillRing": 0.18
+  },
+  "clock": {
+    "layout": "center",
+    "scale": 1.6,
+    "dateScale": 0.45
+  },
+  "bar": {
+    "style": "round",
+    "size": 56
+  },
+  "dock": {
+    "anchor": "bottom",
+    "align": "center",
+    "count": 5,
+    "w": 220,
+    "h": 132,
+    "gap": 24,
+    "radius": 36,
+    "panel": 0.1
+  },
+  "grid": {
+    "mode": "push",
+    "dockUp": 220,
+    "clipTop": 180,
+    "cols": 7,
+    "tileH": 144,
+    "gapX": 22,
+    "align": "center",
+    "overlayDim": 0.5
+  },
+  "tile": {
+    "gloss": 0.5
+  },
+  "effects": {
+    "glow": 0.15,
+    "wallpaper": "wallpaper.jpg",
+    "wallpaperDim": 0.25
+  },
+  "shelf": {
+    "show": true,
+    "dockAlign": true,
+    "dockAnchor": "bottom",
+    "dockAlign": "center",
+    "w": 220,
+    "h": 132,
+    "gap": 24,
+    "radius": 36,
+    "pad": 40,
+    "x": 0,
+    "y": 0
+  },
+  "slots": [
+    {
+      "id": "clock-main",
+      "anchor": "top",
+      "align": "center",
+      "x": 0,
+      "y": 60,
+      "w": 1920,
+      "h": 140,
+      "grid": "keep"
+    },
+    {
+      "id": "weather",
+      "anchor": "top",
+      "align": "left",
+      "x": 80,
+      "y": 50,
+      "w": 420,
+      "h": 160,
+      "grid": "keep"
+    },
+    {
+      "id": "date",
+      "anchor": "top",
+      "align": "center",
+      "x": 0,
+      "y": 190,
+      "w": 1920,
+      "h": 40,
+      "grid": "keep"
+    },
+    {
+      "id": "greeting",
+      "anchor": "top",
+      "align": "left",
+      "x": 100,
+      "y": 250,
+      "w": 800,
+      "h": 36,
+      "grid": "keep"
+    },
+    {
+      "id": "row",
+      "anchor": "bottom",
+      "align": "center",
+      "x": 0,
+      "y": 280,
+      "w": 1200,
+      "h": 250
+    }
+  ],
+  "vars": {
+    "--night": "#0a0a0f",
+    "--panel": "rgba(26, 26, 46, 0.72)",
+    "--panel-strong": "rgba(26, 26, 46, 0.88)",
+    "--ink": "#ffffff",
+    "--ink-dim": "rgba(255, 255, 255, 0.7)",
+    "--accent": "#00d4aa",
+    "--accent-glow": "rgba(0, 212, 170, 0.35)",
+    "--glass-blur": "blur(24px) saturate(180%)",
+    "--glass-blur-strong": "blur(32px) saturate(200%)",
+    "--glass-border": "rgba(255, 255, 255, 0.08)",
+    "--glass-border-strong": "rgba(255, 255, 255, 0.14)",
+    "--glass-highlight": "rgba(255, 255, 255, 0.06)",
+    "--shadow-soft": "0 4px 24px rgba(0, 0, 0, 0.35)",
+    "--shadow-medium": "0 8px 40px rgba(0, 0, 0, 0.45)",
+    "--shadow-strong": "0 16px 64px rgba(0, 0, 0, 0.55)",
+    "--radius-xl": "36px",
+    "--radius-lg": "28px",
+    "--radius-md": "20px",
+    "--radius-sm": "14px",
+    "--transition-fast": "180ms cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+    "--transition-normal": "280ms cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+    "--transition-slow": "420ms cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+    "--transition-bounce": "500ms cubic-bezier(0.34, 1.56, 0.64, 1)",
+    "--clock-scale": "1.6",
+    "--clock-weight": "200",
+    "--clock-letter-spacing": "-0.03em",
+    "--date-weight": "300",
+    "--date-letter-spacing": "0.08em",
+    "--dock-item-scale": "1",
+    "--dock-item-scale-hover": "1.08",
+    "--dock-item-scale-active": "0.96",
+    "--tile-scale-hover": "1.04",
+    "--tile-scale-active": "0.98",
+    "--focus-ring": "0 0 0 3px rgba(0, 212, 170, 0.5)",
+    "--focus-ring-inset": "inset 0 0 0 2px rgba(255, 255, 255, 0.15)",
+    "--wallpaper-dim": "0.25",
+    "--wallpaper-filter": "brightness(0.75) contrast(1.1)",
+    "--depth-layer-1": "translateZ(0)",
+    "--depth-layer-2": "translateZ(20px)",
+    "--depth-layer-3": "translateZ(40px)"
+  },
+  "attrs": {
+    "bar": "round",
+    "labels": "show",
+    "clock": "center",
+    "grid": "push",
+    "galign": "center"
+  }
+}
